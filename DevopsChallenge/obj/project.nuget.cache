@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "C4sWJ2chItC4Juees/hx/295FC7EraqmGvgdxycFTAMRZNK1AeIYqtOXtKoYlhi0ZpP7eF/tM8Wg5gnu8LISpQ==",
+  "success": true,
+  "projectFilePath": "C:\\MyStuff\\Projects\\Devops_Challange\\DevopsChallenge\\DevopsChallenge\\DevopsChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ameya\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
+    "C:\\Users\\ameya\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
