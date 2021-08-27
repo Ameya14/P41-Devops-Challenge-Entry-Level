@@ -86,7 +86,7 @@ To run:
 docker run -d -p <your-port-number>:80 <your-imageid>
 ```
 
-And then you can run on browser using ```shell http://localhost:<your-port-number> ``` 
+And then you can run on browser using ``` http://localhost:<your-port-number> ``` 
 
   
 ### To run using Kubernetes:
@@ -101,4 +101,4 @@ kubectl apply -f microservice.yml
 kubectl port-forward <pod-name> <your-port-number>:80
 ```
 
-And then you can run on browser using ```shell http://localhost:<your-port-number> ``` 
+And then you can run on browser using ``` http://localhost:<your-port-number> ``` 
