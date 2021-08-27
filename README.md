@@ -64,7 +64,7 @@ dotnet run --project .\DevopsChallenge\DevopsChallenge.csproj
 
 ### To run using Docker:
 
-You need to install Docker Desktop (or any other relavant Docker engine) and make sure you Docker Desktop is running.
+You need to install Docker Desktop (or any other relavant Docker engine) and make sure your Docker Desktop is running.
 
 Build the Docker image:
 
