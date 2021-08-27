@@ -54,16 +54,20 @@ git clone https://github.com/Ameya14/P41-Devops-Challenge-Entry-Level
 
 This project is written in .Net Core 3.1. So make sure you have installed .Net Core 3.1 SDK installed in your machine if you want to run this project locally.
 
-### To run locally
+
+### To run locally:
+
 ```shell
 dotnet run --project .\DevopsChallenge\DevopsChallenge.csproj
 ```
 
-### To run using Docker
+
+### To run using Docker:
 
 You need to install Docker Desktop (or any other relavant Docker engine) and make sure you Docker Desktop is running.
 
 Build the Docker image:
+
 ```shell
 docker build ./ -t <your-imagename>
 ```
@@ -71,24 +75,30 @@ docker build ./ -t <your-imagename>
 OR
 
 You can pull the image from Docker Hub:
+
 ```shell
 docker pull ameya141193/devops-challenge-entry-level
 ```
 
 To run:
+
 ```shell
 docker run -d -p <your-port-number>:80 <your-imageid>
 ```
-And then you can run on browser using http://localhost:<your-port-number>
 
-### To run using Kubernetes
+And then you can run on browser using ```shell http://localhost:<your-port-number> ``` 
+
+  
+### To run using Kubernetes:
 
 You need to install Docker Desktop (or MiniKube or any other relavant Kubernetes engine) and make sure you are running Kubernetes in Docker Desktop.
 
 To run:
+
 ```shell
 kubectl apply -f microservice.yml
 
 kubectl port-forward <pod-name> <your-port-number>:80
 ```
-And then you can run on browser using http://localhost:<your-port-number>
+
+And then you can run on browser using ```shell http://localhost:<your-port-number> ``` 
