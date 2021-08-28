@@ -83,7 +83,7 @@ docker pull ameya141193/devops-challenge-entry-level
 To run:
 
 ```shell
-docker run -d -p <your-port-number>:80 <your-imageid>
+docker run -d -p <your-port-number>:8080 <your-imageid>
 ```
 
 And then you can run on browser using ``` http://localhost:<your-port-number> ``` 
@@ -98,7 +98,7 @@ To run:
 ```shell
 kubectl apply -f microservice.yml
 
-kubectl port-forward <pod-name> <your-port-number>:80
+kubectl port-forward <pod-name> <your-port-number>:8080
 ```
 
 And then you can run on browser using ``` http://localhost:<your-port-number> ``` 
